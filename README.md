@@ -25,7 +25,7 @@ Invoke-FalconRTR -Command runscript -Arguments '-Raw=```Start-Process C:\CyLR.ex
 
 Replace each part with its respective information, and do not include the [] brackets. **NOTE: If the files are smaller than 4gb, you can just use the `get` command to download them through RTR if SFTP is not available.**
 
-9. Finally, on line 80, replace XXXXX with the name of the folder that files are uploaded to on your SFTP server. This can be excluded if you want, but it helps to know where to look in case somebody else is using it.
+9. Finally, on line 81, replace XXXXX with the name of the folder that files are uploaded to on your SFTP server. This can be excluded if you want, but it helps to know where to look in case somebody else is using it.
 10. The script is ready to use. To define a host to use this on, add the hostname to a file named hosts.txt located in the same location as the ps1 file. You can add multiple hosts, with each host on a new line. The loop should cycle through each host until it's done. If a host cannot be reached, it should tell you which ones were unreachable once the script is done.
 
 ### TO DO
